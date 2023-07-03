@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/OOPGr4580.iml" filepath="$PROJECT_DIR$/.idea/OOPGr4580.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Supermarket/Supermarket.iml" filepath="$PROJECT_DIR$/Supermarket/Supermarket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VendingMachine/VendingMachine.iml" filepath="$PROJECT_DIR$/VendingMachine/VendingMachine.iml" />
+    </modules>
+  </component>
+</project>
