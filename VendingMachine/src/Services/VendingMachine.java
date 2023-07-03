@@ -21,7 +21,8 @@ public class VendingMachine {
         return assort;
     }
 
-    public void buyProduct(Product p, int price) {
+    public void buyProduct(Product p) {
+        int price = 0;
         if (assort.contains(p) && holder.getBalance() >= price) {
             if (dispenser.dispense(price)) {
                 releaseProduct(p, holder);

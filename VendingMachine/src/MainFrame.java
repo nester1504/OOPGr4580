@@ -1,3 +1,5 @@
+import Services.VendingMachine;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,7 +15,7 @@ public class MainFrame extends JFrame {
     
     JLabel lbWelcome;
 
-    public void initialize() {
+    public void initialize(VendingMachine venMachine) {
        
         
         JLabel lbFirstName = new JLabel("First Name");
@@ -114,10 +116,6 @@ public class MainFrame extends JFrame {
         setVisible(true);
     }
 
-    public static void main(String[] arg)
-    {
-        MainFrame myFrame = new MainFrame();
-        myFrame.initialize();
-    }
+
 
 }
