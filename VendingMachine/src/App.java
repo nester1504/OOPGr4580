@@ -10,7 +10,7 @@ import Services.Holder;
 import Services.VendingMachine;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         List<Product> assort = new ArrayList<>();
         Product item1 = new Product(100, 1, "Lays");
@@ -35,7 +35,7 @@ public class App {
             System.out.println(prod);
         }
 
-        MainFrame2 myFrame = new MainFrame2();
+        MainFrame myFrame = new MainFrame();
         myFrame.initialize(venMachine);
 
 

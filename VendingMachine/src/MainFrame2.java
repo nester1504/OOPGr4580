@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class MainFrame extends JFrame {
+public class MainFrame2 extends JFrame {
     private JList<String> productList;
     private DefaultListModel<String> listModel;
     private JTextField tfFunds;
