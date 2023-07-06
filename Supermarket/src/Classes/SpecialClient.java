@@ -32,6 +32,21 @@ public class SpecialClient extends Actor{
       return this;
     }
 
+    @Override
+    public boolean processReturn(String orderName) {
+        return false;
+    }
+
+    @Override
+    public boolean canReturn(String orderName) {
+        return false;
+    }
+
+    @Override
+    public String getReturnStatus(String orderName) {
+        return null;
+    }
+
     // @Override
     // public String getName() {
     //     return name;

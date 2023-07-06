@@ -33,6 +33,21 @@ public class OrdinaryClient extends Actor {
       return this;
     }
 
+    @Override
+    public boolean processReturn(String orderName) {
+        return false;
+    }
+
+    @Override
+    public boolean canReturn(String orderName) {
+        return false;
+    }
+
+    @Override
+    public String getReturnStatus(String orderName) {
+        return null;
+    }
+
     // public boolean isSetTakeOrder() {
     //     return setTakeOrder;
     // }

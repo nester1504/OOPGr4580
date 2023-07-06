@@ -2,7 +2,7 @@ package Classes;
 
 import Interfaces.iReturnOrder;
 
-public class PromotionalClient extends Actor implements iReturnOrder {
+public class PromotionalClient extends Actor{
 
     private static int participantCount;
     private String promotionName;

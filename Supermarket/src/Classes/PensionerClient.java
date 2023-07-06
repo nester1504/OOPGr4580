@@ -32,5 +32,19 @@ public class PensionerClient extends Actor {
     public Actor getActor() {
       return this;
     }
-    
+
+    @Override
+    public boolean processReturn(String orderName) {
+        return false;
+    }
+
+    @Override
+    public boolean canReturn(String orderName) {
+        return false;
+    }
+
+    @Override
+    public String getReturnStatus(String orderName) {
+        return null;
+    }
 }
