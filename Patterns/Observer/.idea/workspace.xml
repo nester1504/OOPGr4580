@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c22ec0f-1463-4911-9cfa-182bb1d71e92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Adapter/src/AdapterST500.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Adapter/src/MS200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Adapter/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Adapter/src/MeteoSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Adapter/src/MeteoStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Adapter/src/ST500Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Adapter/src/SensorTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/CalcDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/ViewCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/iCalculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/Rewards/Gem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/Rewards/GemGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/Rewards/Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/Rewards/GoldGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/Rewards/ItemGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory/src/Rewards/iGameItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Sz50cwApUaXxXblEMJtyt6MOLu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c22ec0f-1463-4911-9cfa-182bb1d71e92" name="Changes" comment="" />
+      <created>1690136347028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690136347028</updated>
+    </task>
+    <servers />
+  </component>
+</project>
