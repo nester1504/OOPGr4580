@@ -1,54 +1,35 @@
 package Domen;
 
+import Interfaces.iCalculator;
+import Interfaces.iComplexCalc;
+
 import Interfaces.iComplexCalc;
 
 /**
  * Адаптер для класса ComplexCalc, реализующий интерфейс iComplexCalc.
  * Адаптер позволяет использовать ComplexCalc в качестве iComplexCalc.
  */
-public class AdapterComplexCalc implements iComplexCalc {
+public class AdapterComplexCalc extends ComplexCalc implements iCalculator {
 
-    private ComplexCalc adapter;
 
-    /**
-     * Конструктор адаптера.
-     *
-     * @param adapter экземпляр класса ComplexCalc, который будет использоваться в качестве адаптируемого объекта.
-     */
-    public AdapterComplexCalc(ComplexCalc adapter) {
-        this.adapter = adapter;
+
+    public AdapterComplexCalc(double real, double imaginary) {
+        super(real, imaginary);
     }
 
     @Override
-    public iComplexCalc sum(double argRe, double argIm) {
-        adapter.sum(argRe, argIm);
+    public iCalculator sum(int arg) {
+        // Передаем текущие значения реальной и мнимой части
+        // для выполнения операции сложения с целым аргументом arg.
+        sum(arg, 0);
         return this;
     }
 
     @Override
-    public iComplexCalc multi(double argRe, double argIm) {
-        adapter.multi(argRe, argIm);
-        return this;
+    public iCalculator multi(int arg) {
+        return null;
     }
 
-    @Override
-    public iComplexCalc divide(double argRe, double argIm) {
-        adapter.divide(argRe, argIm);
-        return this;
-    }
 
-    @Override
-    public double getRe() {
-        return adapter.getRe();
-    }
 
-    @Override
-    public double getIm() {
-        return adapter.getIm();
-    }
-
-    @Override
-    public int getResult() {
-        return adapter.getResult();
-    }
 }
